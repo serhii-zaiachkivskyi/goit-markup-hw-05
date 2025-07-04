@@ -191,7 +191,7 @@ img {
 
 .hero-baner-btn {
         font-family: "Roboto", sans-serif;
-        background: #4d5ae5;
+        background-color: #4d5ae5;
         margin: 0 auto;
         font-weight: 500;
         font-size: 16px;
@@ -530,7 +530,7 @@ margin-bottom: 8px;
         fill: #000000;
         margin-left: 1px;
         position: absolute;
-        left: 10px;
+        left: 16px;
         top: 50%;
         transform: translateY(-50%);
         width: 16px;
@@ -622,8 +622,8 @@ margin-bottom: 8px;
 
 }
 
-.modal-textarea:focus,
-.modal-textarea:active,
+.user-comment:focus,
+.user-comment:active,
 .modal-input:focus,
 .modal-input:active {
         border: 1px solid #4d5ae5;
@@ -640,16 +640,16 @@ margin-bottom: 8px;
 .textarea-container {
         margin-bottom: 16px;
 }
-.modal-textarea {
+.user-comment {
         font-size: 12px;
         line-height: 1.17;
         letter-spacing: 0.04em;
+        width: 100%;
         height: 120px;
         padding: 8px 16px;
         resize: none;
         border: 1px solid rgba(46, 47, 66, 0.4);
         border-radius: 4px;
-        width: 100%;
         color: rgba(46, 47, 66, 0.4);
         background-color: transparent;
         outline: transparent;
