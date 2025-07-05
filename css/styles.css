@@ -446,7 +446,6 @@ margin-bottom: 8px;
         width: 264px;
         height: 40px;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        margin-right: 24px;
         background-color: transparent;
         padding-left: 16px;
 }
@@ -522,9 +521,6 @@ margin-bottom: 8px;
         transform: translate(-50%, -50%) scale(1.5);
 }
 
-.form-container {
-        margin-bottom: 24px;
-}
 .modal-icon {
         fill: #000000;
         margin-left: 1px;
